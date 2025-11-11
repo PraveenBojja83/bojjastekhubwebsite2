@@ -92,7 +92,7 @@ nav ul li a:hover {
 /* Main Content */
 .MainPage {
   flex: 1;
-  height: 80vh;
+  height: 75vh;
   padding: 30px 20px;
   text-align: center;
   margin-top: 80px;
@@ -134,13 +134,15 @@ nav ul li a:hover {
 /* Animation Container and Circles */
 .container {
     position: relative;
-    width: 80vw;
-    height: 60vh;
+    width:96vw;
+    height: 38vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
-}
+    background: rgba(97, 94, 94, 0.05);
+    border: 2px solid yellow;
+        
+  }
 
 .circle {
     position: absolute;
@@ -157,7 +159,7 @@ nav ul li a:hover {
 }
 @keyframes animate {
     0%, 100% {
-        transform: rotateX(70deg) translateZ(50px) translateY(0);
+        transform: rotateX(70deg) translateZ(50px) translateY(0vh);
         filter: hue-rotate(0);
     }
     50% {
