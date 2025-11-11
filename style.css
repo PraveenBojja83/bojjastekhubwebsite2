@@ -95,7 +95,7 @@ nav ul li a:hover {
   height: 75vh;
   padding: 30px 20px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 /* Homepage specific */
@@ -106,14 +106,14 @@ nav ul li a:hover {
 
 .HomePagecontainer p {
   font-size: 1.2rem;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 
 /* Button container at bottom of main page */
 .ContactButtoncontainer {
-  margin-top: auto;
-  padding: 20px 0 20px;
+  margin-top: 2px;
+  padding: 2px 4px 20px;
   text-align: center;
 }
 .btn {
@@ -139,8 +139,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(97, 94, 94, 0.05);
-    border: 2px solid yellow;
+    margin-top: 80px;
         
   }
 
